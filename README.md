@@ -33,7 +33,9 @@ O projeto foi totalmente modularizado utilizando boas práticas de desenvolvimen
       │  3. LOAD         │ ──> pd.to_csv() [Base Enriquecida]
       └──────────────────┘
 
-  ### 1. Extração (`Extract`)
+```text
+
+### 1. Extração (`Extract`)
 A ingestão dos dados consome uma base local em formato CSV (`clientes_desafio.csv`) que contém atributos fundamentais como `ID`, `Nome`, `Score` de engajamento, `Setor` de atuação e a data da `Última Compra`.
 
 ### 2. Transformação (`Transform`)
@@ -69,6 +71,4 @@ O pipeline processa a base e retorna uma estrutura de dados enriquecida semelhan
 1. Clone este repositório:
    ```bash
 git clone https://github.com/vaniabordin/pipeline-etl-python-crm.git
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/vaniabordin/pipeline-etl-python-crm.git](https://github.com/vaniabordin/pipeline-etl-python-crm.git)
+
