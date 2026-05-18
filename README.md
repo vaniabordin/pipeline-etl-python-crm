@@ -1,4 +1,4 @@
-C# Pipeline de ETL: Inteligência de Negócios e Engajamento de Clientes (CRM)
+# Pipeline de ETL: Inteligência de Negócios e Engajamento de Clientes (CRM)
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)](https://pandas.pydata.org/)
@@ -38,7 +38,7 @@ O projeto foi totalmente modularizado utilizando boas práticas de desenvolvimen
 A ingestão dos dados consome uma base local em formato CSV (`clientes_desafio.csv`) que contém atributos fundamentais como `ID`, `Nome`, `Score` de engajamento, `Setor` de atuação e a data da `Última Compra`.
 
 ### 2. Transformação (`Transform`)
-A etapa de inteligência do pipeline utiliza o `pandas` de forma avançada. Através da vetorização de dados e aplicação de funções de linha (`.apply()` com `pd.Series`), o script avalia o score de cada cliente e injeta duas novas variáveis estratégicas de forma simultânea:
+A etapa de inteligência do pipeline utiliza a biblioteca `pandas`. Através da vetorização de dados e aplicação de funções de linha (`.apply()` com `pd.Series`), o script avalia o score de cada cliente e injeta duas novas variáveis estratégicas de forma simultânea:
 *   **Status de Segmentação:** Classificação automatizada entre `Premium`, `Ativo` ou `Alerta de Churn`.
 *   **Mensagem Personalizada:** Geração de um insight focado no setor do cliente para maximizar a conversão (Up-selling, Cross-selling ou Retenção).
 
