@@ -1,4 +1,4 @@
-# Pipeline de ETL: Inteligência de Negócios e Engajamento de Clientes (CRM)
+C# Pipeline de ETL: Inteligência de Negócios e Engajamento de Clientes (CRM)
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)](https://pandas.pydata.org/)
@@ -15,22 +15,23 @@ Este projeto foi desenvolvido como parte de um desafio prático de Ciência de D
 
 O projeto foi totalmente modularizado utilizando boas práticas de desenvolvimento, dividindo o pipeline em funções com responsabilidades únicas e logs de acompanhamento.
 
-[ Base de Clientes ] (CSV)
-            │
-            ▼
-  ┌──────────────────┐
-  │  1. EXTRACT      │ ──> pd.read_csv()
-  └──────────────────┘
-            │
-            ▼
-  ┌──────────────────┐
-  │  2. TRANSFORM    │ ──> Regras de Negócio & Insights de IA
-  └──────────────────┘
-            │
-            ▼
-  ┌──────────────────┐
-  │  3. LOAD         │ ──> pd.to_csv() [Base Enriquecida]
-  └──────────────────┘
+'''text
+            [ Base de Clientes ] (CSV)
+                        │
+                        ▼
+              ┌──────────────────┐
+              │  1. EXTRACT      │ ──> pd.read_csv()
+              └──────────────────┘
+                        │
+                        ▼
+              ┌──────────────────┐
+              │  2. TRANSFORM    │ ──> Regras de Negócio & Insights de IA
+              └──────────────────┘
+                        │
+                        ▼
+              ┌──────────────────┐
+              │  3. LOAD         │ ──> pd.to_csv() [Base Enriquecida]
+              └──────────────────┘
 
   ### 1. Extração (`Extract`)
 A ingestão dos dados consome uma base local em formato CSV (`clientes_desafio.csv`) que contém atributos fundamentais como `ID`, `Nome`, `Score` de engajamento, `Setor` de atuação e a data da `Última Compra`.
@@ -67,4 +68,4 @@ O pipeline processa a base e retorna uma estrutura de dados enriquecida semelhan
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://vaniabordin/pipeline-etl-python-crm.git)
+git clone https://github.com/vaniabordin/pipeline-etl-python-crm.git
