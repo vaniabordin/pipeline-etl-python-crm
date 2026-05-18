@@ -15,8 +15,7 @@ Este projeto foi desenvolvido como parte de um desafio prático de Ciência de D
 
 O projeto foi totalmente modularizado utilizando boas práticas de desenvolvimento, dividindo o pipeline em funções com responsabilidades únicas e logs de acompanhamento.
 
-```text
-       [ Base de Clientes ] (CSV)
+  [ Base de Clientes ] (CSV)
                 │
                 ▼
       ┌──────────────────┐
@@ -32,8 +31,6 @@ O projeto foi totalmente modularizado utilizando boas práticas de desenvolvimen
       ┌──────────────────┐
       │  3. LOAD         │ ──> pd.to_csv() [Base Enriquecida]
       └──────────────────┘
-
-```text
 
 ### 1. Extração (`Extract`)
 A ingestão dos dados consome uma base local em formato CSV (`clientes_desafio.csv`) que contém atributos fundamentais como `ID`, `Nome`, `Score` de engajamento, `Setor` de atuação e a data da `Última Compra`.
