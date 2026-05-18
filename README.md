@@ -69,4 +69,4 @@ O pipeline processa a base e retorna uma estrutura de dados enriquecida semelhan
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/vaniabordin/pipeline-etl-python-crm.git](https://github.com/vaniabordin/pipeline-etl-python-crm.git)
+   git clone [https://github.com/vaniabordin/pipeline-etl-python-crm](https://github.com/vaniabordin/pipeline-etl-python-crm)
